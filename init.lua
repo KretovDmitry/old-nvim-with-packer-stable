@@ -1,0 +1,2 @@
+require("kda")
+print("hello")
