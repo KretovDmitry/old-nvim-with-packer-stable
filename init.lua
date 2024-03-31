@@ -1,2 +1,1 @@
 require("kda")
-print("hello")
