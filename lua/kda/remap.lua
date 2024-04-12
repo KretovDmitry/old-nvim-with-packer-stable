@@ -38,6 +38,9 @@ vim.keymap.set('n', 'Q', '<nop>')
 -- autoformat code
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
+-- pop diagnostic window
+vim.keymap.set("n", "<leader>fe", vim.diagnostic.open_float, { desc = "Pop diagnostic window" })
+
 -- move between buffers
 vim.keymap.set("n", "[b", "<cmd>bprevious<cr>", { desc = "Prev buffer" })
 vim.keymap.set("n", "]b", "<cmd>bnext<cr>", { desc = "Next buffer" })
